@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B6A6EA814F00BE100B05EFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6A6EA714F00BE100B05EFD /* Foundation.framework */; };
+		5B6A6EAE14F00BE100B05EFD /* iOS_WiFi.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A6EAD14F00BE100B05EFD /* iOS_WiFi.m */; };
+		5B6A6EB614F00BE100B05EFD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6A6EB514F00BE100B05EFD /* SenTestingKit.framework */; };
+		5B6A6EB814F00BE100B05EFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6A6EB714F00BE100B05EFD /* UIKit.framework */; };
+		5B6A6EB914F00BE100B05EFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6A6EA714F00BE100B05EFD /* Foundation.framework */; };
+		5B6A6EBC14F00BE100B05EFD /* libiOS-WiFi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6A6EA414F00BE100B05EFD /* libiOS-WiFi.a */; };
+		5B6A6EC214F00BE100B05EFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B6A6EC014F00BE100B05EFD /* InfoPlist.strings */; };
+		5B6A6EC514F00BE100B05EFD /* iOS_WiFiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A6EC414F00BE100B05EFD /* iOS_WiFiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B6A6EBA14F00BE100B05EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B6A6E9B14F00BE100B05EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B6A6EA314F00BE100B05EFD;
+			remoteInfo = "iOS-WiFi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B6A6EA414F00BE100B05EFD /* libiOS-WiFi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS-WiFi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6A6EA714F00BE100B05EFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B6A6EAB14F00BE100B05EFD /* iOS-WiFi-Prefix.pch */ = {isa = PBXFileReference; path = "iOS-WiFi-Prefix.pch"; sourceTree = "<group>"; };
+		5B6A6EAC14F00BE100B05EFD /* iOS_WiFi.h */ = {isa = PBXFileReference; path = iOS_WiFi.h; sourceTree = "<group>"; };
+		5B6A6EAD14F00BE100B05EFD /* iOS_WiFi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_WiFi.m; sourceTree = "<group>"; };
+		5B6A6EB414F00BE100B05EFD /* iOS-WiFiTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-WiFiTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6A6EB514F00BE100B05EFD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B6A6EB714F00BE100B05EFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B6A6EBF14F00BE100B05EFD /* iOS-WiFiTests-Info.plist */ = {isa = PBXFileReference; path = "iOS-WiFiTests-Info.plist"; sourceTree = "<group>"; };
+		5B6A6EC114F00BE100B05EFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B6A6EC314F00BE100B05EFD /* iOS_WiFiTests.h */ = {isa = PBXFileReference; path = iOS_WiFiTests.h; sourceTree = "<group>"; };
+		5B6A6EC414F00BE100B05EFD /* iOS_WiFiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_WiFiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B6A6EA114F00BE100B05EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6A6EA814F00BE100B05EFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B6A6EB014F00BE100B05EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6A6EB614F00BE100B05EFD /* SenTestingKit.framework in Frameworks */,
+				5B6A6EB814F00BE100B05EFD /* UIKit.framework in Frameworks */,
+				5B6A6EB914F00BE100B05EFD /* Foundation.framework in Frameworks */,
+				5B6A6EBC14F00BE100B05EFD /* libiOS-WiFi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B6A6E9914F00BE100B05EFD = {
+			isa = PBXGroup;
+			children = (
+				5B6A6EA914F00BE100B05EFD /* iOS-WiFi */,
+				5B6A6EBD14F00BE100B05EFD /* iOS-WiFiTests */,
+				5B6A6EA614F00BE100B05EFD /* Frameworks */,
+				5B6A6EA514F00BE100B05EFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B6A6EA514F00BE100B05EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B6A6EA414F00BE100B05EFD /* libiOS-WiFi.a */,
+				5B6A6EB414F00BE100B05EFD /* iOS-WiFiTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B6A6EA614F00BE100B05EFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B6A6EA714F00BE100B05EFD /* Foundation.framework */,
+				5B6A6EB514F00BE100B05EFD /* SenTestingKit.framework */,
+				5B6A6EB714F00BE100B05EFD /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B6A6EA914F00BE100B05EFD /* iOS-WiFi */ = {
+			isa = PBXGroup;
+			children = (
+				5B6A6EAC14F00BE100B05EFD /* iOS_WiFi.h */,
+				5B6A6EAD14F00BE100B05EFD /* iOS_WiFi.m */,
+				5B6A6EAA14F00BE100B05EFD /* Supporting Files */,
+			);
+			path = "iOS-WiFi";
+			sourceTree = "<group>";
+		};
+		5B6A6EAA14F00BE100B05EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B6A6EAB14F00BE100B05EFD /* iOS-WiFi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B6A6EBD14F00BE100B05EFD /* iOS-WiFiTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B6A6EC314F00BE100B05EFD /* iOS_WiFiTests.h */,
+				5B6A6EC414F00BE100B05EFD /* iOS_WiFiTests.m */,
+				5B6A6EBE14F00BE100B05EFD /* Supporting Files */,
+			);
+			path = "iOS-WiFiTests";
+			sourceTree = "<group>";
+		};
+		5B6A6EBE14F00BE100B05EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B6A6EBF14F00BE100B05EFD /* iOS-WiFiTests-Info.plist */,
+				5B6A6EC014F00BE100B05EFD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B6A6EA214F00BE100B05EFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B6A6EA314F00BE100B05EFD /* iOS-WiFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B6A6EC814F00BE100B05EFD /* Build configuration list for PBXNativeTarget "iOS-WiFi" */;
+			buildPhases = (
+				5B6A6EA014F00BE100B05EFD /* Sources */,
+				5B6A6EA114F00BE100B05EFD /* Frameworks */,
+				5B6A6EA214F00BE100B05EFD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-WiFi";
+			productName = "iOS-WiFi";
+			productReference = 5B6A6EA414F00BE100B05EFD /* libiOS-WiFi.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B6A6EB314F00BE100B05EFD /* iOS-WiFiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B6A6ECB14F00BE100B05EFD /* Build configuration list for PBXNativeTarget "iOS-WiFiTests" */;
+			buildPhases = (
+				5B6A6EAF14F00BE100B05EFD /* Sources */,
+				5B6A6EB014F00BE100B05EFD /* Frameworks */,
+				5B6A6EB114F00BE100B05EFD /* Resources */,
+				5B6A6EB214F00BE100B05EFD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B6A6EBB14F00BE100B05EFD /* PBXTargetDependency */,
+			);
+			name = "iOS-WiFiTests";
+			productName = "iOS-WiFiTests";
+			productReference = 5B6A6EB414F00BE100B05EFD /* iOS-WiFiTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B6A6E9B14F00BE100B05EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5B6A6E9E14F00BE100B05EFD /* Build configuration list for PBXProject "iOS-WiFi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B6A6E9914F00BE100B05EFD;
+			productRefGroup = 5B6A6EA514F00BE100B05EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B6A6EA314F00BE100B05EFD /* iOS-WiFi */,
+				5B6A6EB314F00BE100B05EFD /* iOS-WiFiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B6A6EB114F00BE100B05EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6A6EC214F00BE100B05EFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B6A6EB214F00BE100B05EFD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B6A6EA014F00BE100B05EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6A6EAE14F00BE100B05EFD /* iOS_WiFi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B6A6EAF14F00BE100B05EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6A6EC514F00BE100B05EFD /* iOS_WiFiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B6A6EBB14F00BE100B05EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B6A6EA314F00BE100B05EFD /* iOS-WiFi */;
+			targetProxy = 5B6A6EBA14F00BE100B05EFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B6A6EC014F00BE100B05EFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B6A6EC114F00BE100B05EFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B6A6EC614F00BE100B05EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B6A6EC714F00BE100B05EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B6A6EC914F00BE100B05EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOS_WiFi.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-WiFi/iOS-WiFi-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5B6A6ECA14F00BE100B05EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOS_WiFi.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-WiFi/iOS-WiFi-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5B6A6ECC14F00BE100B05EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-WiFi/iOS-WiFi-Prefix.pch";
+				INFOPLIST_FILE = "iOS-WiFiTests/iOS-WiFiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5B6A6ECD14F00BE100B05EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-WiFi/iOS-WiFi-Prefix.pch";
+				INFOPLIST_FILE = "iOS-WiFiTests/iOS-WiFiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B6A6E9E14F00BE100B05EFD /* Build configuration list for PBXProject "iOS-WiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6A6EC614F00BE100B05EFD /* Debug */,
+				5B6A6EC714F00BE100B05EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B6A6EC814F00BE100B05EFD /* Build configuration list for PBXNativeTarget "iOS-WiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6A6EC914F00BE100B05EFD /* Debug */,
+				5B6A6ECA14F00BE100B05EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B6A6ECB14F00BE100B05EFD /* Build configuration list for PBXNativeTarget "iOS-WiFiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6A6ECC14F00BE100B05EFD /* Debug */,
+				5B6A6ECD14F00BE100B05EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B6A6E9B14F00BE100B05EFD /* Project object */;
+}

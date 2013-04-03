@@ -31,6 +31,7 @@
 		else { ///< iOS 5.x versions.
 			lib_to_load = "/System/Library/PrivateFrameworks/MobileWiFi.framework/MobileWiFi";
 		}
+		// lib_to_load = "/System/Library/SystemConfiguration/IPConfiguration.bundle/IPConfiguration";
 		
 		libHandle = dlopen(lib_to_load, RTLD_LAZY);
 		

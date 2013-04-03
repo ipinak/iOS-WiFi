@@ -28,10 +28,12 @@
 		if (_IOS_RUN_VERSION_ >= 4.0 && _IOS_RUN_VERSION_ < 5.0) { ///< iOS 4.x versions.
 			lib_to_load = "/System/Library/SystemConfiguration/WiFiManager.bundle/WiFiManager";
 		}
+		else if (_IOS_RUN_VERSION_ == 5.1) { ///< iOS 5.x versions.
+			lib_to_load = "/System/Library/SystemConfiguration/IPConfiguration.bundle/IPConfiguration";
+		}
 		else { ///< iOS 5.x versions.
 			lib_to_load = "/System/Library/PrivateFrameworks/MobileWiFi.framework/MobileWiFi";
 		}
-		// lib_to_load = "/System/Library/SystemConfiguration/IPConfiguration.bundle/IPConfiguration";
 		
 		libHandle = dlopen(lib_to_load, RTLD_LAZY);
 		

@@ -72,7 +72,6 @@
 		5B6A6E9914F00BE100B05EFD = {
 			isa = PBXGroup;
 			children = (
-				5BFA1CC91518D670009D15FF /* UIKit.framework */,
 				5B6A6EA914F00BE100B05EFD /* iOS-WiFi */,
 				5B6A6EBD14F00BE100B05EFD /* iOS-WiFiTests */,
 				5B6A6EA614F00BE100B05EFD /* Frameworks */,
@@ -92,6 +91,7 @@
 		5B6A6EA614F00BE100B05EFD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5BFA1CC91518D670009D15FF /* UIKit.framework */,
 				5B6A6EA714F00BE100B05EFD /* Foundation.framework */,
 				5B6A6EB514F00BE100B05EFD /* SenTestingKit.framework */,
 			);
